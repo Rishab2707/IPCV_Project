@@ -15,13 +15,20 @@ Required Libaries:
                                                       matplotlib==3.2.1
                                                       scipy==1.4.1
 
-train_mask_detector.py: This file creates a deep learning model "mask_detector.model" which produces the probability of a face mask being worn.
+## train_mask_detector.py: 
+This file creates a deep learning model "mask_detector.model" which produces the probability of a face mask being worn.
+
+Note: Please change the below line (which is the directory for image dataset) in the above file to your working directory
+
+                                                      DIRECTORY = r"C:\Users\Rishab\IPCV_Project\dataset"
 
 code to run : 
                                                       
                                                       python train_mask_detector.py
 
-detect_mask_video.py: This file provides a real time detection of face mask on a human face from a video camera (WebCam in this case).
+
+## detect_mask_video.py: 
+This file provides a real time detection of face mask on a human face from a video camera (WebCam in this case).
 
 code to run : 
                                                       
